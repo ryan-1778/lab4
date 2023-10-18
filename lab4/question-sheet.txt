@@ -1,0 +1,33 @@
+# Write a terminal command that will cause authenticate.py to log in as any 
+# user. (10 points)
+
+
+
+# Write a terminal command that will cause authenticate.py to log in as the user 
+# bob. (10 points)
+
+
+
+# Using blind SQL injection, determine the length of bob's password hash. Write 
+# two terminal commands below, one for the "fail" result of the blind SQL 
+# injection, and another for the "success" result that demonstrates the password 
+# hash's length. (10 points)
+
+
+
+# Write a script (bash or Python) to recover bob's password hash using blind 
+# SQL injection on authenticate.py. The final line printed by your script should be 
+# bob's hash. Write below the hash followed by a copy of your script.
+#
+# Reminder: You are not allowed to use any pentesting tools; only your own 
+# code. (10 points)
+
+
+
+# Using hashcat, John the Ripper, or a similar tool, crack bob's password and write
+# it below.
+#
+# Hint: The hash is an unsalted SHA1 hash. Bob used a weak password, so it 
+# should not take hashcat more than a few minutes to brute force the answer.
+# (10 points)
+
